@@ -1,0 +1,30 @@
+* {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.Navbar {
+  width: 100%;
+  position: fixed;
+  position: -webkit-sticky;
+  z-index: 99;
+  top: 0;
+  background: white;
+}
+
+.NavbarContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 15px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: right;
+}
+
+li {
+  padding: 0px 20px;
+}
